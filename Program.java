@@ -1,5 +1,4 @@
 
-import java.io.IOException;
 import java.util.HashMap;
 
 public class Program{
@@ -17,7 +16,7 @@ public class Program{
             }
         } //цикл для ввода данных, пока пользователь не введет их корректно
 
-        newFileName = data.get("Фамилия") + ".txt"; //указывается файл для записи данных пользователя
+        newFileName = data.get("lastname") + ".txt"; //указывается файл для записи данных пользователя
         StringBuilder sb = new StringBuilder();
         for (String str : data.keySet()) {
             sb.append(data.get(str));
